@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Content {
+    position: relative;
+}
+
+.content-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.content-box div {
+    padding: 15px;
+}
+
+
+.firstline{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    height: 400px;
+    width: 50px;
+    background-color:#b20808;
+    border:2px solid #fff;
+
+}
+.firstlinedot1{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 4px;
+    top: 45px;
+    border: 2px solid #000;
+}
+.firstlinedot2{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 4px;
+    right: 7px;
+    top: 310px;
+    border: 2px solid #000;
+}
+.secondline{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+    height: 380px;
+    width: 50px;
+    background-color: #ed2323;
+   border:2px solid #fff;
+}
+.secondlinedot1{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 4px;
+    top: 40px;
+    border: 2px solid #000;
+}
+
+.secondlinedot2 {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 4px;
+    right: 8px;
+    top: 295px;
+    border: 2px solid #000;
+}
+
+.thirdline{
+    position: absolute;
+    top: 145px;
+    left: 320px;
+    height: 350px;
+    width: 50px;
+    background-color: #ed5121;
+   border:2px solid #fff;
+}
+.fourthine{
+    position: absolute;
+    top: 155px;
+    left: 400px;
+    height: 320px;
+    width: 50px;
+    background-color: #ed6921;
+   border:2px solid #fff;
+}
+.fifthline{
+    position: absolute;
+    top: 165px;
+    left: 480px;
+    height: 300px;
+    width: 50px;
+    background-color: #eeb122;
+   border:2px solid #fff;
+}
+.sixline{
+    position: absolute;
+    top: 175px;
+    left: 560px;
+    height: 280px;
+    width: 50px;
+    background-color: #edec22;
+   border:2px solid #fff;
+}
+.sevenline{
+    position: absolute;
+    top: 185px;
+    left: 640px;
+    height: 260px;
+    width: 50px;
+    background-color: #148706;
+   border:2px solid #fff;
+}
+.eightline{
+    position: absolute;
+    top: 195px;
+    left: 710px;
+    height: 240px;
+    width: 50px;
+    background-color: #3cc72c;
+   border:2px solid #fff;
+}
+.nigthline{
+    position: absolute;
+    top: 205px;
+    left: 780px;
+    height: 220px;
+    width: 50px;
+    background-color: #253978;
+   border:2px solid #fff;
+}
+.tenline{
+    position: absolute;
+    top: 215px;
+    left: 850px;
+    height: 200px;
+    width: 50px;
+    background-color: #5e72b1;
+   border:2px solid #fff;
+}
+.evelanline{
+    position: absolute;
+    top: 225px;
+    left: 920px;
+    height: 180px;
+    width: 50px;
+    background-color: #780c9d;
+    border:2px solid #fff;
+}
+.twelveline{
+    position: absolute;
+    top: 235px;
+    left: 990px;
+    height: 160px;
+    width: 50px;
+    background-color: #c666e7;
+   border:2px solid #fff;
+}
+
+
+.horzintalline1 {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    width: 980px;
+    transform: rotate(6deg);
+    background-color: azure;
+    border:3px solid black;
+    background-color: #000;
+}
+
+.horzintalline2 {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 980px;
+    margin-top: 200px;
+    transform: rotate(-5deg);
+    background-color: azure;
+    border:3px solid black;
+    background-color: #000;
+}
